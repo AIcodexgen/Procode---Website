@@ -94,7 +94,7 @@ const DevelopmentIllustration = () => (
   <svg viewBox="0 0 440 320" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: "100%", maxHeight: 320 }}>
     <defs>
       <linearGradient id="dev-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#6366F1" stopOpacity="0.2" />
+        <stop offset="0%" stopColor="#8B5CF6" stopOpacity="0.2" />
         <stop offset="100%" stopColor="#10B981" stopOpacity="0.1" />
       </linearGradient>
     </defs>
@@ -144,7 +144,7 @@ const DevelopmentIllustration = () => (
     {[120, 180, 220, 260, 320].map((x, i) => (
       <g key={x}>
         <circle cx={x} cy="248" r="18" fill="rgba(14,18,32,0.95)" stroke={["rgba(99,102,241,0.35)", "rgba(139,92,246,0.3)", "rgba(16,185,129,0.3)", "rgba(99,102,241,0.25)", "rgba(16,185,129,0.35)"][i]} strokeWidth="1.5" />
-        <text x={x} y="253" textAnchor="middle" fill={["#818CF8", "#A78BFA", "#34D399", "#6366F1", "#10B981"][i]} fontSize="9" fontWeight="700">
+        <text x={x} y="253" textAnchor="middle" fill={["#818CF8", "#A78BFA", "#34D399", "#8B5CF6", "#10B981"][i]} fontSize="9" fontWeight="700">
           {["Ingest", "Parse", "Chain", "Agent", "Output"][i]}
         </text>
         {i < 4 && <line x1={x + 18} y1="248" x2={[120, 180, 220, 260, 320][i + 1] - 18} y2="248" stroke="rgba(255,255,255,0.06)" strokeWidth="1" strokeDasharray="3 2" />}
@@ -159,7 +159,7 @@ const engagementModels = [
     desc: "Clear scope, clear budget. Best for defined products with known requirements.",
     features: ["Scoped requirements doc", "Milestone-based payments", "Fixed delivery date", "IP transferred on completion"],
     badge: "Most Popular",
-    badgeColor: "#6366F1",
+    badgeColor: "#8B5CF6",
   },
   {
     name: "Milestone-Based",
@@ -258,7 +258,7 @@ export default function DevelopmentPage() {
                 We build the products{" "}
                 <span
                   style={{
-                    background: "linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%)",
+                    background: "linear-gradient(135deg, #8B5CF6 0%, #8B5CF6 100%)",
                     WebkitBackgroundClip: "text",
                     WebkitTextFillColor: "transparent",
                     backgroundClip: "text",
@@ -286,7 +286,7 @@ export default function DevelopmentPage() {
                     alignItems: "center",
                     gap: 8,
                     padding: "14px 28px",
-                    background: "#6366F1",
+                    background: "#8B5CF6",
                     color: "white",
                     borderRadius: 8,
                     fontWeight: 700,
@@ -299,7 +299,7 @@ export default function DevelopmentPage() {
                     e.currentTarget.style.transform = "translateY(-2px)";
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "#6366F1";
+                    e.currentTarget.style.background = "#8B5CF6";
                     e.currentTarget.style.transform = "translateY(0)";
                   }}
                 >
@@ -364,7 +364,7 @@ export default function DevelopmentPage() {
             <WhatWeBuildCard
               icon={<BuildIcon size={22} />}
               title="Software Products"
-              accent="#6366F1"
+              accent="#8B5CF6"
               desc="SaaS platforms, internal tools, web apps, and mobile-ready products built to scale."
               items={["SaaS & web applications", "Internal ops tools", "Customer portals", "B2B platforms"]}
             />
@@ -512,7 +512,7 @@ export default function DevelopmentPage() {
                 <ul style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                   {model.features.map((f) => (
                     <li key={f} style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 14, color: "var(--text-muted)" }}>
-                      <div style={{ color: "#6366F1", flexShrink: 0 }}>
+                      <div style={{ color: "#8B5CF6", flexShrink: 0 }}>
                         <CheckIcon size={12} />
                       </div>
                       {f}
@@ -576,7 +576,7 @@ export default function DevelopmentPage() {
               alignItems: "center",
               gap: 8,
               padding: "16px 36px",
-              background: "#6366F1",
+              background: "#8B5CF6",
               color: "white",
               borderRadius: 10,
               fontWeight: 700,
@@ -590,7 +590,7 @@ export default function DevelopmentPage() {
               e.currentTarget.style.boxShadow = "0 12px 32px rgba(99,102,241,0.4)";
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.background = "#6366F1";
+              e.currentTarget.style.background = "#8B5CF6";
               e.currentTarget.style.transform = "translateY(0)";
               e.currentTarget.style.boxShadow = "none";
             }}

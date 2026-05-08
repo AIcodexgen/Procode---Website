@@ -6,7 +6,7 @@ import { ArrowRight } from "@/components/Icons";
 const CaseIllustration = ({ type }: { type: "fintech" | "saas" | "health" | "ecom" }) => {
   const configs = {
     fintech: {
-      color1: "#6366F1",
+      color1: "#8B5CF6",
       color2: "#8B5CF6",
       bars: [60, 80, 65, 90, 75, 95],
     },
@@ -339,7 +339,7 @@ export default function WorkPage() {
                             textAlign: "center",
                           }}
                         >
-                          <div style={{ fontSize: 16, fontWeight: 800, letterSpacing: "-0.02em", color: "#6366F1", marginBottom: 2 }}>{m.value}</div>
+                          <div style={{ fontSize: 16, fontWeight: 800, letterSpacing: "-0.02em", color: "#8B5CF6", marginBottom: 2 }}>{m.value}</div>
                           <div style={{ fontSize: 10, color: "var(--text-muted)", lineHeight: 1.3 }}>{m.label}</div>
                         </div>
                       ))}
@@ -393,7 +393,7 @@ export default function WorkPage() {
               alignItems: "center",
               gap: 8,
               padding: "16px 36px",
-              background: "#6366F1",
+              background: "#8B5CF6",
               color: "white",
               borderRadius: 10,
               fontWeight: 700,
@@ -407,7 +407,7 @@ export default function WorkPage() {
               e.currentTarget.style.boxShadow = "0 12px 32px rgba(99,102,241,0.4)";
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.background = "#6366F1";
+              e.currentTarget.style.background = "#8B5CF6";
               e.currentTarget.style.transform = "translateY(0)";
               e.currentTarget.style.boxShadow = "none";
             }}

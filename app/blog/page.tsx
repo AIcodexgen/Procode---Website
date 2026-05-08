@@ -5,7 +5,7 @@ import { ArrowRight, ClockIcon } from "@/components/Icons";
 
 const ArticleIllustration = ({ type }: { type: "ai" | "automation" | "engineering" | "business" }) => {
   const configs = {
-    ai: { c1: "#6366F1", c2: "#8B5CF6", label: "AI" },
+    ai: { c1: "#8B5CF6", c2: "#8B5CF6", label: "AI" },
     automation: { c1: "#10B981", c2: "#34D399", label: "⚡" },
     engineering: { c1: "#F59E0B", c2: "#FCD34D", label: "{}" },
     business: { c1: "#EC4899", c2: "#F472B6", label: "$" },
@@ -69,7 +69,7 @@ const articles = [
       "Most teams greenlight automation projects on vibes. Here's a framework for putting real numbers on it — and the questions to ask before you commit budget.",
     author: "James Okafor",
     authorInitials: "JO",
-    authorColor: "#6366F1",
+    authorColor: "#8B5CF6",
     date: "Apr 14, 2026",
     readTime: "8 min read",
     featured: false,
@@ -125,7 +125,7 @@ const articles = [
       "Scope creep rarely announces itself. It arrives as a reasonable-sounding extension to what you're already building. Here's how to spot it early and push back professionally.",
     author: "James Okafor",
     authorInitials: "JO",
-    authorColor: "#6366F1",
+    authorColor: "#8B5CF6",
     date: "Feb 12, 2026",
     readTime: "6 min read",
     featured: false,
@@ -205,9 +205,9 @@ export default function BlogPage() {
                 key={cat}
                 style={{
                   padding: "7px 16px",
-                  background: i === 0 ? "#6366F1" : "var(--bg-surface)",
+                  background: i === 0 ? "#8B5CF6" : "var(--bg-surface)",
                   color: i === 0 ? "white" : "var(--text-secondary)",
-                  border: i === 0 ? "1px solid #6366F1" : "1px solid var(--border)",
+                  border: i === 0 ? "1px solid #8B5CF6" : "1px solid var(--border)",
                   borderRadius: 8,
                   fontSize: 13,
                   fontWeight: 600,
@@ -309,7 +309,7 @@ export default function BlogPage() {
                     alignItems: "center",
                     gap: 8,
                     padding: "11px 22px",
-                    background: "#6366F1",
+                    background: "#8B5CF6",
                     color: "white",
                     borderRadius: 8,
                     fontWeight: 700,
@@ -319,7 +319,7 @@ export default function BlogPage() {
                     transition: "background 0.15s",
                   }}
                   onMouseEnter={(e) => (e.currentTarget.style.background = "#818CF8")}
-                  onMouseLeave={(e) => (e.currentTarget.style.background = "#6366F1")}
+                  onMouseLeave={(e) => (e.currentTarget.style.background = "#8B5CF6")}
                 >
                   Read Article <ArrowRight size={14} />
                 </Link>
@@ -415,7 +415,7 @@ export default function BlogPage() {
                           gap: 4,
                           fontSize: 13,
                           fontWeight: 700,
-                          color: "#6366F1",
+                          color: "#8B5CF6",
                           textDecoration: "none",
                           transition: "gap 0.15s",
                         }}
@@ -469,7 +469,7 @@ export default function BlogPage() {
             <button
               style={{
                 padding: "12px 22px",
-                background: "#6366F1",
+                background: "#8B5CF6",
                 color: "white",
                 border: "none",
                 borderRadius: 8,
@@ -480,7 +480,7 @@ export default function BlogPage() {
                 whiteSpace: "nowrap",
               }}
               onMouseEnter={(e) => (e.currentTarget.style.background = "#818CF8")}
-              onMouseLeave={(e) => (e.currentTarget.style.background = "#6366F1")}
+              onMouseLeave={(e) => (e.currentTarget.style.background = "#8B5CF6")}
             >
               Subscribe
             </button>

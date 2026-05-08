@@ -33,7 +33,7 @@ const ContactIllustration = () => (
     {/* Clock bubble (timing) */}
     <circle cx="90" cy="230" r="28" fill="rgba(99,102,241,0.1)" stroke="rgba(99,102,241,0.25)" strokeWidth="1.5" />
     <circle cx="90" cy="230" r="14" stroke="rgba(99,102,241,0.4)" strokeWidth="1" fill="none" />
-    <path d="M90 223V230L95 235" stroke="#6366F1" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M90 223V230L95 235" stroke="#8B5CF6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
     <text x="90" y="272" textAnchor="middle" fill="rgba(255,255,255,0.25)" fontSize="9" fontWeight="600">1 business day</text>
 
     {/* Calendar bubble */}
@@ -184,7 +184,7 @@ export default function ContactPage() {
                   </h2>
                   <p style={{ fontSize: 15, color: "var(--text-secondary)", lineHeight: 1.65 }}>
                     We&apos;ll get back to you within one business day. If your need is urgent, email us directly at{" "}
-                    <a href="mailto:hello@procode.dev" style={{ color: "#6366F1" }}>hello@procode.dev</a>.
+                    <a href="mailto:hello@procode.dev" style={{ color: "#8B5CF6" }}>hello@procode.dev</a>.
                   </p>
                 </div>
               ) : (
@@ -225,7 +225,7 @@ export default function ContactPage() {
                               padding: "10px 16px",
                               borderRadius: 7,
                               border: "none",
-                              background: serviceType === type ? "#6366F1" : "transparent",
+                              background: serviceType === type ? "#8B5CF6" : "transparent",
                               color: serviceType === type ? "white" : "var(--text-secondary)",
                               fontWeight: 700,
                               fontSize: 14,
@@ -312,7 +312,7 @@ export default function ContactPage() {
                           justifyContent: "center",
                           gap: 8,
                           padding: "14px 28px",
-                          background: "#6366F1",
+                          background: "#8B5CF6",
                           color: "white",
                           border: "none",
                           borderRadius: 8,
@@ -326,7 +326,7 @@ export default function ContactPage() {
                           e.currentTarget.style.transform = "translateY(-1px)";
                         }}
                         onMouseLeave={(e) => {
-                          e.currentTarget.style.background = "#6366F1";
+                          e.currentTarget.style.background = "#8B5CF6";
                           e.currentTarget.style.transform = "translateY(0)";
                         }}
                       >
@@ -446,7 +446,7 @@ export default function ContactPage() {
                   {quickFaqs.map((faq) => (
                     <div key={faq.q}>
                       <div style={{ display: "flex", alignItems: "flex-start", gap: 8, marginBottom: 4 }}>
-                        <div style={{ color: "#6366F1", marginTop: 2, flexShrink: 0 }}>
+                        <div style={{ color: "#8B5CF6", marginTop: 2, flexShrink: 0 }}>
                           <CheckIcon size={12} />
                         </div>
                         <div style={{ fontWeight: 600, fontSize: 14 }}>{faq.q}</div>

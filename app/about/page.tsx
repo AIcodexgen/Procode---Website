@@ -102,10 +102,10 @@ const TimelineIllustration = () => (
     <line x1="40" y1="40" x2="440" y2="40" stroke="rgba(99,102,241,0.2)" strokeWidth="2" />
 
     {[
-      { x: 80, year: "2019", label: "Founded", color: "#6366F1" },
+      { x: 80, year: "2019", label: "Founded", color: "#8B5CF6" },
       { x: 180, year: "2021", label: "First AI product", color: "#8B5CF6" },
       { x: 280, year: "2023", label: "Expert bench launched", color: "#10B981" },
-      { x: 400, year: "2025", label: "40+ clients", color: "#6366F1" },
+      { x: 400, year: "2025", label: "40+ clients", color: "#8B5CF6" },
     ].map((milestone) => (
       <g key={milestone.x}>
         <circle cx={milestone.x} cy="40" r="8" fill={milestone.color} />
@@ -140,7 +140,7 @@ const values = [
   {
     title: "Blunt honesty",
     desc: "We say what we think. If your idea has a flaw, we tell you before we start — not after we've spent your budget.",
-    color: "#6366F1",
+    color: "#8B5CF6",
     icon: (
       <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
         <path d="M11 3V11M11 15V19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
@@ -198,7 +198,7 @@ const teamMembers = [
     name: "James Okafor",
     role: "Founder & Technical Lead",
     initials: "JO",
-    color: "#6366F1",
+    color: "#8B5CF6",
     bio: "Former engineering lead at a Series C fintech. Built AI systems and automation pipelines across finance, healthcare, and SaaS. Founded ProCode in 2019 after seeing how badly most agencies handle technical complexity.",
     stack: ["LangChain", "Python", "System Architecture", "AWS"],
   },
@@ -280,7 +280,7 @@ export default function AboutPage() {
             We&apos;re a technical team that{" "}
             <span
               style={{
-                background: "linear-gradient(135deg, #6366F1 0%, #10B981 100%)",
+                background: "linear-gradient(135deg, #8B5CF6 0%, #10B981 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
@@ -456,7 +456,7 @@ export default function AboutPage() {
                     height: 22,
                     borderRadius: "50%",
                     background: "rgba(99,102,241,0.12)",
-                    color: "#6366F1",
+                    color: "#8B5CF6",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -493,7 +493,7 @@ export default function AboutPage() {
                 alignItems: "center",
                 gap: 8,
                 padding: "14px 28px",
-                background: "#6366F1",
+                background: "#8B5CF6",
                 color: "white",
                 borderRadius: 8,
                 fontWeight: 700,
@@ -506,7 +506,7 @@ export default function AboutPage() {
                 e.currentTarget.style.transform = "translateY(-2px)";
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.background = "#6366F1";
+                e.currentTarget.style.background = "#8B5CF6";
                 e.currentTarget.style.transform = "translateY(0)";
               }}
             >

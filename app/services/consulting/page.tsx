@@ -7,7 +7,7 @@ const ConsultingIllustration = () => (
   <svg viewBox="0 0 440 300" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: "100%", maxHeight: 300 }}>
     {/* Team visualization */}
     {[
-      { cx: 100, cy: 100, color: "#6366F1", label: "Your Team", initials: "YT" },
+      { cx: 100, cy: 100, color: "#8B5CF6", label: "Your Team", initials: "YT" },
       { cx: 220, cy: 60, color: "#10B981", label: "ProCode", initials: "PC" },
       { cx: 340, cy: 100, color: "#8B5CF6", label: "Expert", initials: "EX" },
     ].map((node) => (
@@ -56,7 +56,7 @@ const experts = [
     name: "Alex Rodriguez",
     role: "Senior AI/ML Engineer",
     initials: "AR",
-    color: "#6366F1",
+    color: "#8B5CF6",
     exp: "8 years",
     stack: ["LangChain", "Python", "PyTorch", "FastAPI"],
     bio: "Built AI systems for Series A–C startups and Fortune 500s. Specialises in production LLM pipelines and agent architecture.",
@@ -87,7 +87,7 @@ const engagementOptions = [
     days: "5 days / week",
     desc: "Your engineer works entirely within your team. Daily standups, full sprint participation, Slack/Jira/GitHub — whatever your workflow.",
     ideal: "Teams that need to move fast on a major build",
-    color: "#6366F1",
+    color: "#8B5CF6",
   },
   {
     name: "Part-Time Embed",
@@ -293,7 +293,7 @@ export default function ConsultingPage() {
                     <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
                   </svg>
                 ),
-                color: "#6366F1",
+                color: "#8B5CF6",
               },
               {
                 title: "Missing a critical skill",
